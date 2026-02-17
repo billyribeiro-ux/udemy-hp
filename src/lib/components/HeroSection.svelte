@@ -35,7 +35,7 @@
     .hero-showcase {
         position: relative;
         width: 50%;
-        padding: 100px 16px 0 16px;
+        padding: 32px 16px 0 16px;
         background: linear-gradient(
                 135deg,
                 #e2bcbf,
@@ -53,15 +53,13 @@
     .book-cover {
         position: absolute;
         right: 2%;
-        bottom: 0;
+        top: 350px;
         width: 65%;
-        transform: translateY(30%);
     }
     .phone-cover {
         position: absolute;
         width: 35%;
-        bottom: 0;
+        top: 380px;
         right: 52%;
-        transform: translateY(25%);
     }
 </style>

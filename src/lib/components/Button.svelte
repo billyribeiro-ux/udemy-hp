@@ -1,5 +1,5 @@
 <script>
-	let { children, onclick, ...props } = $props();
+	let { children, onclick = undefined, ...props } = $props();
 </script>
 <button {onclick} {...props}>{@render children()}</button>
 
