@@ -25,3 +25,25 @@
 		</p>
 	</div>
 </section>
+
+<style>
+	.hero {
+		display: flex;
+		height: 100vh;
+		overflow-y: hidden;
+	}
+
+	.hero-showcase {
+		position: relative;
+		width: 50%;
+		padding: 100px 16px 0 16px;
+		background: linear-gradient(
+			135deg,
+			#e2bcbff,
+			#e2bcbff 25%,
+			#edeeaff 50%,
+			#edeeaff 75%,
+			#e927bce
+		);
+	}
+</style>
