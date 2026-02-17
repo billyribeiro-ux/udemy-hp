@@ -1,12 +1,16 @@
 <script>
 	import '../app.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import { Nav, Footer } from '$lib/components';
 
 	let { children } = $props();
 </script>
 
-<svelte:head>
-	<link rel="icon" href={favicon} />
-</svelte:head>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
-{@render children()}
+<Nav />
+
+<main id="main-content">
+	{@render children()}
+</main>
+
+<Footer />
